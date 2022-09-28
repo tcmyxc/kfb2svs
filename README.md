@@ -18,6 +18,8 @@ GUI 界面包括一个命令行窗口（显示处理过程中的一些信息）�
 
 
 
+B站播放链接：https://www.bilibili.com/video/BV1XG411g7vp/
+
 ## 参考文献
 
 1. https://zhuanlan.zhihu.com/p/362254790
