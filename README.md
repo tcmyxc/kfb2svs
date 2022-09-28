@@ -1,5 +1,7 @@
 # KFB转SVS软件
 
+## 软件说明
+
 软件只是将 [KFB2TiforSVS](https://github.com/WilmerWang/SLFCD/releases/tag/0.0.1) 包装了一下，让本来只能一张一张转换图片格式变成了：
 
 （1）`选择 KFB 文件所在文件夹` 
@@ -16,7 +18,7 @@ GUI 界面包括一个命令行窗口（显示处理过程中的一些信息）�
 
 > 上面截图是两个窗口，只是叠放在了一起（为了截图方便）
 
-
+## 使用教程
 
 B站播放链接：https://www.bilibili.com/video/BV1XG411g7vp/
 
