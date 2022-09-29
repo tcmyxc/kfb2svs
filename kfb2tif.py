@@ -60,7 +60,7 @@ class MainWindow(QDialog):
             print(f"正在转换第 {ok_cnt+1} 个文件, 一共有 {file_cnt} 个文件")
             tif_dest_path = kfb_file.replace(root_path, f"{root_path}/tif")
             tif_dest_path = tif_dest_path.replace(".kfb", ".tif")
-            command = f"{exe_path} {kfb_file} {tif_dest_path} {level}"
+            command = f'{exe_path} "{kfb_file}" "{tif_dest_path}" {level}'  # 加双引号避免文件路径有空格
             p = subprocess.Popen(command)
             p.wait()
             ok_cnt += 1
@@ -68,7 +68,7 @@ class MainWindow(QDialog):
             self.advanceProgressBar()
             print()
 
-        print("所有文件已经转换成功!!!")
+        print("\n所有文件已经转换成功!!!")
 
     def advanceProgressBar(self):
         curVal = self.progressBar.value()

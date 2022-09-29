@@ -60,7 +60,7 @@ class MainWindow(QDialog):
             print(f"正在转换第 {ok_cnt+1} 个文件, 一共有 {file_cnt} 个文件")
             svs_dest_path = kfb_file.replace(root_path, f"{root_path}/svs")
             svs_dest_path = svs_dest_path.replace(".kfb", ".svs")
-            command = f"{exe_path} {kfb_file} {svs_dest_path} {level}"
+            command = f'{exe_path} "{kfb_file}" "{svs_dest_path}" {level}'  # 加双引号避免文件路径有空格
             p = subprocess.Popen(command)
             p.wait()
             ok_cnt += 1
