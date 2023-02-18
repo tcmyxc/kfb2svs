@@ -1,5 +1,7 @@
 # KFB转SVS软件
 
+> 如果觉得软件有用的话，可以帮忙在右上角点个⭐️
+
 ## 软件说明
 
 软件只是将 [KFB2TiforSVS](https://github.com/WilmerWang/SLFCD/releases/tag/0.0.1) 包装了一下，让本来只能一张一张转换图片格式变成了：
